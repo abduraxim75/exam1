@@ -21,6 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 li{
@@ -29,20 +30,28 @@ li{
 
 a{
     text-decoration: none;
-    color: #FFFFFF;
+    
 }
 
 .ul_list1{
     margin-left: 266px;
     font-family: 'Roboto';
     font-weight: 700;
-    color: rgba(210, 49, 102, 1);
+    color: rgba(21, 1, 1, 1);
+}
+
+.ul_list1:hover{
+    color:rgba(210, 49, 102, 1);
 }
 
 .ul_list2{
     font-family: 'Roboto';
     font-weight: 400;
     color: rgba(21, 1, 1, 1);
+}
+
+.ul_list2:hover{
+    color:rgba(210, 49, 102, 1);
 }
 
 .button_style{
@@ -139,6 +148,8 @@ a{
     align-items: center;
 }
 
+
+
 .hero_header{
     width: 351px;
     height: 101px;
@@ -177,7 +188,9 @@ a{
     width: 1165px;
     
 }
-
+input{
+    outline: none;
+}
 .alpha_head_text{
     text-align: center;
     margin-top: 138px;
@@ -195,8 +208,8 @@ a{
     position: sticky;
 }
 
-.alpha_a{
-    color: rgba(0, 0, 0, 1);
+.alpha_a:hover{
+    color: rgb(198, 181, 28);
 
 }
 
